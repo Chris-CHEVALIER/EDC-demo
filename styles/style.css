@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+body {
+  background-color: antiquewhite;
+
+  margin: 0;
+  margin-left: 50px;
+}
+
+.names {
+  color: rgba(253, 89, 35, 0.539);
+  text-align: center;
+  margin-top: 0;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  font-family: 'Delicious Handrawn', cursive;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+.profile-picture {
+  width: 400px;
+}
+
+.title {
+  font-size: 20px;
+  color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1080px) {
+  .profile-picture {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    background-color: blueviolet;
+  }
+}
